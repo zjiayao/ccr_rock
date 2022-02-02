@@ -1,6 +1,20 @@
-# ROCK: A Causal Inference Framework for Reasoning About Commonsense Causality
+# Causal Inference Principles for Reasoning about Commonsense Causality
 
-This repo contains official code for the paper "ROCK: A Causal Inference Framework for Reasoning About Commonsense Causality".
+
+This repo contains official code for the paper [Causal Inference Principles for Reasoning about Commonsense Causality](https://arxiv.org/abs/2202.00436) by [Jiayao Zhang](https://www.jiayao-zhang.com), [Hongming Zhang](https://panda0881.github.io/Hongming_Homepage/), [Dan Roth](https://www.cis.upenn.edu/~danroth/), and [Weijie J. Su](https://statistics.wharton.upenn.edu/profile/suw/).
+
+
+
+```bib
+@misc{zhang2022causal,
+      title={Causal Inference Principles for Reasoning about Commonsense Causality}, 
+      author={Jiayao Zhang and Hongming Zhang and Dan Roth and Weijie J. Su},
+      year={2022},
+      eprint={2202.00436},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
 
 
