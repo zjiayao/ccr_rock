@@ -11,8 +11,8 @@ Commonsense causality reasoning (CCR) aims at identifying plausible causes and e
 
 ## Datasets
 
-Two datasets are used:
-
+Three datasets are used:
+- [The New York Times Annotated Corpus](https://catalog.ldc.upenn.edu/LDC2008T19)
 - [Choice of Plausible Alternatives (COPA)](https://people.ict.usc.edu/~gordon/copa.html)
 - [GLUCOSE](https://github.com/TevenLeScao/glucose)
 
