@@ -12,11 +12,21 @@ Commonsense causality reasoning (CCR) aims at identifying plausible causes and e
 ## Datasets
 
 Three datasets are used:
-- [The New York Times Annotated Corpus](https://catalog.ldc.upenn.edu/LDC2008T19)
+- [The New York Times Annotated Corpus (NYT)](https://catalog.ldc.upenn.edu/LDC2008T19)
 - [Choice of Plausible Alternatives (COPA)](https://people.ict.usc.edu/~gordon/copa.html)
 - [GLUCOSE](https://github.com/TevenLeScao/glucose)
 
+## Models
+
+The ROCK framework contains four component and each of them can be customized. Below listed are the
+three that make use of language models and the default choices.
+
+- Event Sampler: [gpt-j-6B](https://huggingface.co/EleutherAI/gpt-j-6B)
+- Intervention Generator: [PolyJuice](https://huggingface.co/uw-hai/polyjuice)
+- Temporal Predictor: [RoBERTa fine-tuned on NYT](https://huggingface.co/CogComp/roberta-temporal-predictor)
+
 # Reproducing Experiments
+
 ## Dependencies
  
  We use Python 3.8 and ``pytorch`` for training neural nets, please use 
