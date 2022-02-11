@@ -5,18 +5,16 @@ This repo contains official code for the paper [Causal Inference Principles for 
 
 
 
-```bib
-@misc{zhang2022causal,
-      title={Causal Inference Principles for Reasoning about Commonsense Causality}, 
-      author={Jiayao Zhang and Hongming Zhang and Dan Roth and Weijie J. Su},
-      year={2022},
-      eprint={2202.00436},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
-```
+## Abstract
 
+Commonsense causality reasoning (CCR) aims at identifying plausible causes and effects in natural language descriptions that are deemed reasonable by an average person. Although being of great academic and practical interest, this problem is still shadowed by the lack of a well-posed theoretical framework; existing work usually relies on deep language models wholeheartedly, and is potentially susceptible to confounding co-occurrences. Motivated by classical causal principles, we articulate the central question of CCR and draw parallels between human subjects in observational studies and natural languages to adopt CCR to the potential-outcomes framework, which is the first such attempt for commonsense tasks. We propose a novel framework, ROCK, to Reason O(A)bout Commonsense K(C)ausality, which utilizes temporal signals as incidental supervision, and balances confounding effects using temporal propensities that are analogous to propensity scores. The ROCK implementation is modular and zero-shot, and demonstrates good CCR capabilities on various datasets.
 
+## Datasets
+
+Two datasets are used:
+
+- [Choice of Plausible Alternatives (COPA)](https://people.ict.usc.edu/~gordon/copa.html)
+- [GLUCOSE](https://github.com/TevenLeScao/glucose)
 
 # Reproducing Experiments
 ## Dependencies
@@ -31,7 +29,7 @@ This repo contains official code for the paper [Causal Inference Principles for 
   - `causal_reasoner.ipynb`: use this notebook to estimate $\hat{\Delta}_p$. Instructions on extending ROCK is also included there.
   - `nyt_finetune.ipynb`: use this notebook for temporality fine-tuning using NYT corpus.
 
-## Datasets and Pre-Computed Results
+## Pre-Computed Results
   Some operations are computationally heavy (e.g., GPT-J model requires 25GB memory),
   you can download our pre-computed results using *anonymous* Dropbox links below:
   - [`exp_data.zip` (155M)](https://www.dropbox.com/s/9egrzn1ny3oq2qa/roberta_ft.tar.gz?dl=1): This is used by the `result_presentation`; the `causal_reasoner` can generate some of the processed data in this archive.
@@ -73,4 +71,15 @@ This repo contains official code for the paper [Causal Inference Principles for 
     └── utils.py
 ```
 
+## Reference
 
+```bib
+@misc{zhang2022causal,
+      title={Causal Inference Principles for Reasoning about Commonsense Causality}, 
+      author={Jiayao Zhang and Hongming Zhang and Dan Roth and Weijie J. Su},
+      year={2022},
+      eprint={2202.00436},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
