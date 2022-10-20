@@ -43,7 +43,7 @@ three that make use of language models and the default choices.
 ## Pre-Computed Results
   Some operations are computationally heavy (e.g., GPT-J model requires 25GB memory),
   you can download our pre-computed results using *anonymous* Dropbox links below:
-  - [`exp_data.zip` (155M)](https://www.dropbox.com/s/9egrzn1ny3oq2qa/roberta_ft.tar.gz?dl=1): This is used by the `result_presentation`; the `causal_reasoner` can generate some of the processed data in this archive.
+  - [`exp_data.zip` (155M)](https://www.dropbox.com/s/mxjlfsxvt0b0gfs/exp_data.zip?dl=1): This is used by the `result_presentation`; the `causal_reasoner` can generate some of the processed data in this archive.
   - [`roberta_ft.tar.gz` (1.29G)](https://www.dropbox.com/s/9egrzn1ny3oq2qa/roberta_ft.tar.gz?dl=1): This is the fine-tuned RoBERTa model we used in our paper as the temporality predictor. This can be generated from `nyt_finetune` notebook and is used by `causal_reasoner` notebook.
   - [`nyt_ft.zip` (9M)](https://www.dropbox.com/s/1kigmy4wj41vw14/nyt_ft.zip?dl=0): This is the fine-tuning dataset we used, obtained from SRL on the [original NYT corpus](https://catalog.ldc.upenn.edu/LDC2008T19).
 ## Code Structure
