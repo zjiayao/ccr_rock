@@ -2,7 +2,7 @@
 ![ROCK](/figs/ccr_rock_diag.png)
 
 
-This repo contains official code for the paper [Causal Inference Principles for Reasoning about Commonsense Causality](https://arxiv.org/abs/2202.00436) by [Jiayao Zhang](https://www.jiayao-zhang.com), [Hongming Zhang](https://panda0881.github.io/Hongming_Homepage/), [Dan Roth](https://www.cis.upenn.edu/~danroth/), and [Weijie J. Su](https://statistics.wharton.upenn.edu/profile/suw/).
+This repo contains official code for the paper [ROCK: Causal Inference Principles for Reasoning about Commonsense Causality](https://arxiv.org/abs/2202.00436) by [Jiayao Zhang](https://www.jiayao-zhang.com), [Hongming Zhang](https://panda0881.github.io/Hongming_Homepage/), [Weijie J. Su](https://statistics.wharton.upenn.edu/profile/suw/), and [Dan Roth](https://www.cis.upenn.edu/~danroth/).
 
 
 
@@ -85,12 +85,11 @@ three that make use of language models and the default choices.
 ## Reference
 
 ```bib
-@misc{zhang2022causal,
-      title={Causal Inference Principles for Reasoning about Commonsense Causality}, 
-      author={Jiayao Zhang and Hongming Zhang and Dan Roth and Weijie J. Su},
-      year={2022},
-      eprint={2202.00436},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{ZZSR22,
+    author = {Jiayao Zhang and Hongming Zhang and Weijie J. Su and Dan Roth},
+    title = {{ROCK: Causal Inference Principles for Reasoning about Commonsense Causality}},
+    booktitle = {Proc. of the International Conference on Machine Learning (ICML)},
+    year = {2022},
+    url = "https://cogcomp.seas.upenn.edu/papers/ZZSR22.pdf",
 }
 ```
